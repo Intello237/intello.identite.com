@@ -1,0 +1,137 @@
+.gradient-custom-2 {
+/* fallback for old browsers */
+background: #fccb90;
+
+/* Chrome 10-25, Safari 5.1-6 */
+background: -webkit-linear-gradient(to right, #ee7724, #008000);
+
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #ee7724, #008000);
+}
+
+@media (min-width: 768px) {
+.gradient-form {
+height: 100vh !important;
+}
+}
+@media (min-width: 769px) {
+.gradient-custom-2 {
+border-top-right-radius: .3rem;
+border-bottom-right-radius: .3rem;
+}
+}
+
+/* 222222222222222 */
+.bg-image-vertical {
+position: relative;
+overflow: hidden;
+background-repeat: no-repeat;
+background-position: right center;
+background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+
+
+/* 5555555555555555 */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    opacity: 10;
+    background-image: url("imges/font i.png");
+    font-family: 'Poppins', sans-serif; 
+}
+.wrapper{
+    max-width: 550px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 20px 20px 80px rgb(206, 206, 206);
+}
+.h2{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.0rem;
+    font-weight: bold;
+    color: #008000;
+    text-shadow: 0 0 2px #a069ee;
+    font-style: italic;  
+}
+.h5{
+    color: #555;
+    margin: 0;
+}
+.form-control{
+    border: 1.5px solid #008000;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.mandatory::after{
+    content: "*";
+    color: #ff0000;
+}
+.button-section .btn{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1.5px solid #008000;
+    padding: 5px 15px;
+}
+.button-section .btn.btn-primary{
+    background-color: #008000;
+    color: #eee;
+}
+.button-section .btn:hover{
+    background-color: #008000;
+    color: #eee;
+}
+.remember{
+    border: 1px solid #008000;
+}
+.gender-l{
+    margin: 0;
+}
+#male{
+    display: none;
+}
+input[type="radio"]{
+   visibility: hidden;
+}
+input[type='radio']:checked{
+    background-color: #008000;
+}
+.btn.btn-primary{
+    background-color: #fff;
+    color: #555;
+    border: 1px solid #008000;
+    width: 115px;
+}
+.btn.btn-primary:hover{
+    background-color: #00FF00;
+    color: #fff;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: #008000;
+}
+@media(max-width: 575px){
+    .btn-group{
+        width: 100%;
+    }
+    .btn-group>.btn{
+        flex: 50%;
+    }
+    .wrapper{
+        margin: 10px;
+    }
+    .h5{
+        padding-top: 10px;
+    }
+}
